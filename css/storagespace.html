@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+    
+    <style> * {
+          font-family: Helvetica;
+        color:azure;
+        }
+        
+        .button {
+            color:aqua;
+        }
+
+        .accent {
+          font-family: Consolas;
+          color: rebeccapurple;
+        font-size: 30px;
+        }
+
+        body {
+          background-color:violet;
+        }
+
+        a.accent {
+          color: salmon
+        }
+        
+        ok {
+            color:aquamarine;
+        }
+
+        section, section label {
+          display: flex;
+          flex-direction: column;
+          margin: 10px;
+          transition: 1s all;
+        }
+
+        section.guest {
+          max-height: 0;
+          overflow: hidden;
+          opacity: 0;
+        }
+
+        input[type="checkbox"]:checked ~ section.guest {
+          opacity: 1;
+          max-height: 200px;
+        }
+
+        input {
+          border: 2px solid darkpink;
+          background-color: ghostwhite;
+          font-family: Courier;
+          color: purple;
+          font-size: 20px;
+          border-radius: 10px;
+          padding: 3px 10px;
+        }
+    
+        
+        .imagey {
+            height: 400px
+        }
+</style>
+    
+<h1> What would you like to submit today?</h1>
+    <p> <a href='landing.html' class=button> If you need to quickly navigate away, click here. </a> </p>
+    <p> Some examples of things to upload include screenshots of inappropriate conversations or comment threads, photos of abuse or of evidence of abuse, or videos or .mp3 files of abusive situations.</p>
+    
+    <h1> Upload to your bank here: </h1>
+    <input type="file" class=button/>
+    
+    <h2> To access your files, please input your password again. </h2>
+    <input type="password"/>
+    <a href='bankview.html' class=button><input type="submit"/></a>
+    
+    <h4> What is domestic violence? </h4>
+    
+    <p> <i>        Violent or aggressive behavior within the home, typically involving the violent abuse of a spouse or partner.</i> </p>
+    
+    <header><b> What is cyberbullying? </b></header>
+    <p> <i> The use of electronic communication to bully a person, typically by sending messages of an intimidating or threatening nature. </i> </p>
+    
+    <h3> Take a look at these resources for survivors of physical, mental, or emotional abuse both online and in person. Whether or not you believe you can, you can. </h3>
+    <p> <b>Domestic Violence Resources: </b> </p>
+    <p> - National Domestic Violence Hotline +1 (800) 799-7233 </p>
+    <p> - National Teen Dating Abuse Helpline +1 (866) 331-9474 </p>
+    <p> - National Sexual Assault Hotline +1 (800) 656-4673 </p>
+    <p> - <a href = 'www.cadvny.org' class=button> Center Against Domestic Violence </a> </p>
+    <p> - <a href='www.nccadv.org' class=button>National Coalition Against Domestic Violence</a> </p>
+    <p> =============  </p>
+    <p> <b>Cyberbullying and Harassment Resources:</b></p>
+    <p> - National Suicide Prevention Lifeline +1 (800) 273-8255</p>
+    <p> - Kids Help Phone (Canada Only) +1 (800) 668-6868</p>
+    <p> - <a href='www.meganmeierfoundation.org' class=button> Megan Meier Foundation for Cyberbullying Survivors </a></p>
+    <p> - <a href='https://www.stopbullying.gov/get-help-now/' class=button> Stop Bullying Now </a></p>
+    <p> - <a href='1800victims.org/crime-type/cyber-bullying' class=button> Cyber Bullying as a Crime</a></p>
+    
+    
+
+
+    
+</head>
+</html>
